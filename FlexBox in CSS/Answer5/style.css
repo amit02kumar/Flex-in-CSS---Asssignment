@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    max-width: 1440px;
+    min-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.right-container{
+    width: 50%;
+    /* height: auto; */
+}
+
+.right-container img{
+    width: 100%;
+    height: auto;
+}
+.left-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.logo-container{
+    display: flex;
+    gap: 20px;
+}
+
+.logo-container img{
+    width: 75px;
+    height: 75px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-container ul{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.nav-container li{
+    cursor: pointer;
+}
+
+.nav-container button{
+    border: 1px solid rgb(243, 226, 226);
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px 7px;
+}
+
+.nav-container .selected{
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+ main .main-heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
+
+ main .choose-button{
+    display: flex; 
+    gap: 10px;
+}
+
+main .choose-button .selected{
+    background-color: rgb(12, 12, 82);
+    color: white;
+}
+
+main .choose-button button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-color: lightgray;
+    padding:0 7px;
+    border-radius: 7px;
+}
+
+main .journey-details{
+    border: 1px solid lightgray;
+    padding: 15px 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+ 
+main .card-element{
+    display: flex;
+    align-items: center;
+}
+
+main .card-element-image img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+main .dropdown{
+    gap: 5px;
+    cursor: pointer;
+}
+
+.search-button{
+    background-color: green;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-color: white;
+    font-size: 20px;
+    font-weight: bold; 
+    gap: 12px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.choose-location span{
+    font-size: 12px;
+    color: grey;
+}
+
+ .green-text{
+    color: rgb(37, 246, 37);
+ }
+
+ .orange-text{
+    color: orangered;
+ }
+
+ .blue-text{
+    color: blue;
+ }
